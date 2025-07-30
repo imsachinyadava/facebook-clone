@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Qs</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        text-align: center;
+        padding: 50px;
+      }
+
+      h1 {
+        color: #1877f2;
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      .userbtn {
+        background-color: #1877f2;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .userbtn:hover {
+        background-color: #145dbf;
+      }
+
+      input {
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        font-size: 14px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+
+      #searchbtn {
+        padding: 10px 20px;
+        background-color: #42b72a;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      #searchbtn:hover {
+        background-color: #369e21;
+      }
+
+      hr {
+        margin: 30px 0;
+        border: 1px solid #ccc;
+      }
+
+      label {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Facebook</h1>
+    <button class="userbtn">Log in</button>
+    <button class="userbtn">Register</button>
+    <hr />
+    <label for="search">Search</label>
+    <input placeholder="search your friends" id="search" />
+    <button id="searchbtn">Search</button>
+  </body>
+</html>
